@@ -68,4 +68,5 @@ try:
         st.error("No data found. Please check the ticker symbol.")
 
 except Exception as e:
+
     st.error(f"Error fetching data: {e}")
